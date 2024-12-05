@@ -35,6 +35,7 @@ function agregarHTML() {
         tareas.forEach(tarea => {
             const li = document.createElement('li');
             li.innerHTML = `${tarea.tarea} <i tarea-id="${tarea.id}" class="fa-solid fa-trash"></i>`;
+
             Listadetareas.appendChild(li);
         });
     }
